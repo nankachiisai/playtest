@@ -1,0 +1,11 @@
+公式サイトの説明(英語)
+http://www.playframework.com/documentation/2.1.0/ScalaTodoList
+
+@に関する説明(日本語)
+https://github.com/playframework-ja/Play20/wiki/ScalaTemplates
+
+日本語訳されたplay2.0ドキュメント
+https://github.com/playframework-ja/Play20/wiki
+
+Play2.0の基本的な解説(日本語)
+http://www.mwsoft.jp/programming/play/scala_play_start.html
