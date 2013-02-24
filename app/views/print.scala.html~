@@ -1,5 +1,3 @@
-@(message: String, num: Int)
-
 <html>
   <head>
     <meta http-equiv="Content-Type" content="utf-8">

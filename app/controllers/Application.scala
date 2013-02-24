@@ -11,4 +11,10 @@ object Application extends Controller {
   def index = Action {
     Ok(views.html.index("今日のおかず", randomnumber(10)))
   }
+
+  def print = Action {
+    req => {
+      Ok(views.html.print(req.body.asFormUrlEncoded.get("aaa")(0)))
+    }
+  }
 }
