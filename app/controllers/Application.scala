@@ -14,7 +14,14 @@ object Application extends Controller {
 
   def print = Action {
     req => {
-      Ok(views.html.print(req.body.asFormUrlEncoded.get("aaa")(0)))
+      def postproc(inputstr: String) =
+	if (!inputstr.isEmpty)
+	  "input string is \"" + inputstr +"\"."
+	else
+	  "input string is empty."
+
+      val textdata = req.body.asFormUrlEncoded.get("aaa")(0)
+      Ok(views.html.print(postproc(textdata)))
     }
   }
 }
