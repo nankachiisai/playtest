@@ -1,4 +1,2 @@
-This is your new Play 2.1 application
-=====================================
-
-This file will be packaged with your application, when using `play dist`.
+todaysdinnerのplay on scalaによる実装を計画中です。
+とりあえずdocuments.txtにはこれまでのコーディングに関する参考資料を記載してあります。
