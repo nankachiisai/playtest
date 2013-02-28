@@ -1,5 +1,4 @@
 package controllers
-import scala.util.Random
 
 import play.api._
 import play.api.mvc._
@@ -23,5 +22,11 @@ object Application extends Controller {
       val textdata = req.body.asFormUrlEncoded.get("aaa")(0)
       Ok(views.html.print(postproc(textdata)))
     }
+
+  }
+  
+  def random = Action {
+    val json = List("hello", "world")
+    Ok(Json.toJson(json))
   }
 }
